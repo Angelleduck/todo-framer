@@ -26,7 +26,6 @@ function App() {
           <h3 className="text-2xl font-semibold text-white">Good Morning!</h3>
           <p className="text-zinc-400">Let's see what we have to today.</p>
         </div>
-        //220 for small
         <section className="text-white space-y-3 max-w-xl mx-auto px-4 h-[calc(100vh-61%)] overflow-y-auto [&::-webkit-scrollbar]:hidden">
           <AnimatePresence>
             {todos.map((todo) => (
